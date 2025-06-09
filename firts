@@ -1,3 +1,6 @@
-#!/bin/bash/
+#!/bin/bash
 
-echo "Yevhen is my master"
+
+read -p "Yevhen is ..." d
+echo $d
+echo "Yevhen is $d"
